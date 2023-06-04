@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500;600&display=swap");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --p1sb: Raleway;
+  --pinterreg12: Inter;
+
+  /* font sizes */
+  --p1sb-size: 16px;
+  --pinterreg12-size: 12px;
+  --h5sb-size: 24px;
+  --h4sb-size: 32px;
+  --h6sb-size: 20px;
+  --h1sb-size: 48px;
+
+  /* Colors */
+  --black-100: #000;
+  --contrast-black-99: #0e0f2d;
+  --black-94: #0a0a0a;
+  --color-gray-100: rgba(255, 255, 255, 0.3);
+  --white-20: rgba(255, 255, 255, 0.2);
+  --contrast-white-10: rgba(255, 255, 255, 0.1);
+  --contrast-white-90: rgba(255, 255, 255, 0.9);
+  --contrast-white-60: rgba(255, 255, 255, 0.6);
+  --contrast-black90: rgba(0, 0, 0, 0.8);
+  --wireframe2: #fff;
+  --primary-sky-blue: #009dff;
+  --primary-blue: #2b35c3;
+  --contrast-black70: #999;
+
+  /* Gaps */
+  --gap-29xl: 48px;
+  --gap-13xl: 32px;
+  --gap-base: 16px;
+  --gap-77xl: 96px;
+  --gap-5xs: 8px;
+  --gap-45xl: 64px;
+  --gap-16xl: 35px;
+
+  /* Paddings */
+  --padding-61xl: 80px;
+  --padding-5xs: 8px;
+  --padding-base: 16px;
+  --padding-13xl: 32px;
+  --padding-3xs: 10px;
+
+  /* border radiuses */
+  --br-9xs: 4px;
+  --br-5xs: 8px;
+  --br-5xl: 24px;
+  --br-base: 16px;
+}
