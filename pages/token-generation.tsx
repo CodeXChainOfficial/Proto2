@@ -2,7 +2,7 @@ import type { NextPage } from "next";
 import styles from "./token-generation.module.css";
 const TokenGeneration: NextPage = () => {
   return (
-    <div className={styles.tokenGeneration}>
+    <div className={styles.nftFirstPage}>
       <div className={styles.mintNftProcessed}>
         <div className={styles.frameParent}>
           <img className={styles.frameChild} alt="" src="/frame-371085.svg" />
@@ -174,74 +174,6 @@ const TokenGeneration: NextPage = () => {
       </div>
       <div className={styles.btnSmall}>
         <div className={styles.contractType}>next</div>
-      </div>
-      <div className={styles.footerexplorer}>
-        <div className={styles.frameParent7}>
-          <div className={styles.frameParent8}>
-            <div className={styles.logoNewParent}>
-              <div className={styles.logoNew}>
-                <img
-                  className={styles.image12Icon}
-                  alt=""
-                  src="/image-12@2x.png"
-                />
-              </div>
-              <div className={styles.codex}>© 2023 codex</div>
-            </div>
-            <div className={styles.frameWrapper12}>
-              <div className={styles.privacyParent}>
-                <div className={styles.contractType}>privacy</div>
-                <div className={styles.contractType}>term</div>
-              </div>
-            </div>
-          </div>
-          <div className={styles.findUsParent}>
-            <div className={styles.contractType}>find us</div>
-            <div className={styles.mditwitterParent}>
-              <img
-                className={styles.mditwitterIcon}
-                alt=""
-                src="/mditwitter.svg"
-              />
-              <img
-                className={styles.mditwitterIcon}
-                alt=""
-                src="/icoutlinediscord1.svg"
-              />
-              <img
-                className={styles.mditwitterIcon}
-                alt=""
-                src="/mdigithub.svg"
-              />
-              <img
-                className={styles.mditwitterIcon}
-                alt=""
-                src="/icoutlinetelegram.svg"
-              />
-            </div>
-          </div>
-        </div>
-      </div>
-      <div className={styles.headerDiscussion}>
-        <div className={styles.isolationModeWrapper}>
-          <img
-            className={styles.isolationModeIcon}
-            alt=""
-            src="/isolation-mode1.svg"
-          />
-        </div>
-        <div className={styles.frameParent9}>
-          <div className={styles.privacyParent}>
-            <div className={styles.contractType}>Products</div>
-            <div className={styles.contractType}>Project</div>
-            <div className={styles.contractType}>Ecosystem</div>
-            <div className={styles.contractType}>About us</div>
-            <div className={styles.contractType}>doc</div>
-          </div>
-          <div className={styles.btnSmall1}>
-            <div className={styles.contractType}>connect wallet</div>
-          </div>
-        </div>
       </div>
     </div>
   );

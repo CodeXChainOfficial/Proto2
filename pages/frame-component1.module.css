@@ -1,0 +1,41 @@
+.image400Icon {
+  position: absolute;
+  top: calc(50% - 24px);
+  left: calc(50% - 24px);
+  width: 48px;
+  height: 48px;
+  object-fit: cover;
+}
+.image400Wrapper {
+  position: relative;
+  border-radius: var(--br-5xl);
+  background-color: var(--contrast-white-100);
+  width: 48px;
+  height: 48px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.tron {
+  position: relative;
+  letter-spacing: 0.05em;
+  line-height: 160%;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+.frameParent {
+  position: relative;
+  border-radius: var(--br-5xs);
+  background-color: var(--black-94);
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-5xs);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  text-align: left;
+  font-size: var(--h6sb-size);
+  color: var(--contrast-white-100);
+  font-family: var(--p1sb);
+}

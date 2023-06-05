@@ -1,8 +1,8 @@
 import type { NextPage } from "next";
 import styles from "./token-generation1.module.css";
-const TokenGeneration1: NextPage = () => {
+const TokenGeneration11: NextPage = () => {
   return (
-    <div className={styles.tokenGeneration}>
+    <div className={styles.lauchpadHome}>
       <div className={styles.launchpad}>LaunchPad</div>
       <div className={styles.frameParent}>
         <div className={styles.launchpadConfigurationsParent}>
@@ -117,7 +117,7 @@ const TokenGeneration1: NextPage = () => {
                         </div>
                       </div>
                       <div className={styles.parent}>
-                        <div className={styles.codex}>20%</div>
+                        <div className={styles.div1}>20%</div>
                         <div className={styles.rectangleParent}>
                           <div className={styles.groupChild} />
                           <div className={styles.groupItem} />
@@ -292,76 +292,8 @@ const TokenGeneration1: NextPage = () => {
           <div className={styles.launchpadConfigurations}>next</div>
         </div>
       </div>
-      <div className={styles.footerexplorer}>
-        <div className={styles.centralisedParent}>
-          <div className={styles.frameParent11}>
-            <div className={styles.logoNewParent}>
-              <div className={styles.logoNew}>
-                <img
-                  className={styles.image12Icon}
-                  alt=""
-                  src="/image-12@2x.png"
-                />
-              </div>
-              <div className={styles.codex}>© 2023 codex</div>
-            </div>
-            <div className={styles.frameWrapper12}>
-              <div className={styles.privacyParent}>
-                <div className={styles.launchpadConfigurations}>privacy</div>
-                <div className={styles.launchpadConfigurations}>term</div>
-              </div>
-            </div>
-          </div>
-          <div className={styles.findUsParent}>
-            <div className={styles.launchpadConfigurations}>find us</div>
-            <div className={styles.mditwitterParent}>
-              <img
-                className={styles.bxsupArrowIcon}
-                alt=""
-                src="/mditwitter.svg"
-              />
-              <img
-                className={styles.bxsupArrowIcon}
-                alt=""
-                src="/icoutlinediscord1.svg"
-              />
-              <img
-                className={styles.bxsupArrowIcon}
-                alt=""
-                src="/mdigithub.svg"
-              />
-              <img
-                className={styles.bxsupArrowIcon}
-                alt=""
-                src="/icoutlinetelegram.svg"
-              />
-            </div>
-          </div>
-        </div>
-      </div>
-      <div className={styles.headerDiscussion}>
-        <div className={styles.isolationModeWrapper}>
-          <img
-            className={styles.isolationModeIcon}
-            alt=""
-            src="/isolation-mode1.svg"
-          />
-        </div>
-        <div className={styles.frameParent4}>
-          <div className={styles.privacyParent}>
-            <div className={styles.products}>Products</div>
-            <div className={styles.launchpadConfigurations}>Project</div>
-            <div className={styles.launchpadConfigurations}>Ecosystem</div>
-            <div className={styles.launchpadConfigurations}>About us</div>
-            <div className={styles.launchpadConfigurations}>doc</div>
-          </div>
-          <div className={styles.btnSmall1}>
-            <div className={styles.launchpadConfigurations}>connect wallet</div>
-          </div>
-        </div>
-      </div>
     </div>
   );
 };
 
-export default TokenGeneration1;
+export default TokenGeneration11;

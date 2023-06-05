@@ -1,5 +1,8 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Syne:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
 @import url("https://fonts.googleapis.com/icon?family=Material+Icons");
 
 body {
@@ -10,49 +13,88 @@ body {
   /* fonts */
   --p1sb: Raleway;
   --pinterreg12: Inter;
+  --font-manrope: Manrope;
+  --font-roboto: Roboto;
+  --font-syne: Syne;
 
   /* font sizes */
   --p1sb-size: 16px;
   --pinterreg12-size: 12px;
-  --h5sb-size: 24px;
-  --h4sb-size: 32px;
-  --h6sb-size: 20px;
   --h1sb-size: 48px;
+  --h6sb-size: 20px;
+  --h4sb-size: 32px;
+  --h5sb-par-size: 24px;
+  --h3sb-size: 36px;
+  --h2sb-size: 40px;
+  --text-size: 14px;
+  --font-size-2xs: 11px;
+  --font-size-12xl-3: 31.3px;
 
   /* Colors */
   --black-100: #000;
+  --white-98: #fafafa;
+  --color-gray-200: #20232c;
   --contrast-black-99: #0e0f2d;
   --black-94: #0a0a0a;
-  --color-gray-100: rgba(255, 255, 255, 0.3);
-  --white-20: rgba(255, 255, 255, 0.2);
-  --contrast-white-10: rgba(255, 255, 255, 0.1);
-  --contrast-white-90: rgba(255, 255, 255, 0.9);
-  --contrast-white-60: rgba(255, 255, 255, 0.6);
   --contrast-black90: rgba(0, 0, 0, 0.8);
-  --wireframe2: #fff;
+  --contrast-white-10: rgba(255, 255, 255, 0.1);
+  --contrast-white-60: rgba(255, 255, 255, 0.6);
+  --color-gray-100: rgba(255, 255, 255, 0.3);
+  --contrast-white-90: rgba(255, 255, 255, 0.9);
+  --white-20: rgba(255, 255, 255, 0.2);
+  --contrast-white-100: #fff;
   --primary-sky-blue: #009dff;
-  --primary-blue: #2b35c3;
-  --contrast-black70: #999;
+  --blue-30: rgba(0, 157, 255, 0.3);
+  --discussion-dev: #40cd81;
+  --allert-green-50: rgba(64, 205, 129, 0.5);
+  --allert-yellow-50: rgba(255, 167, 86, 0.5);
+  --blue-20: #b3bae5;
+  --allert-blue-50: rgba(86, 164, 255, 0.5);
+  --alert: #ff5656;
+  --color-gainsboro: #d9d9d9;
+  --allert-purple-50: rgba(99, 86, 255, 0.5);
+  --allert-red-50: rgba(255, 86, 167, 0.5);
+  --color-mediumslateblue-100: #3164fa;
+  --color-mediumslateblue-200: rgba(49, 100, 250, 0.09);
+  --color-midnightblue: #002985;
+  --color-lavender: #e1ebff;
 
   /* Gaps */
-  --gap-29xl: 48px;
-  --gap-13xl: 32px;
   --gap-base: 16px;
+  --gap-29xl: 48px;
   --gap-77xl: 96px;
+  --gap-13xl: 32px;
   --gap-5xs: 8px;
-  --gap-45xl: 64px;
+  --gap-61xl: 80px;
+  --gap-3xs: 10px;
+  --gap-5xl: 24px;
   --gap-16xl: 35px;
+  --gap-xl: 20px;
+  --gap-9xs: 4px;
+  --gap-45xl: 64px;
+  --gap-141xl: 160px;
 
   /* Paddings */
+  --padding-base: 16px;
   --padding-61xl: 80px;
   --padding-5xs: 8px;
-  --padding-base: 16px;
   --padding-13xl: 32px;
+  --padding-9xs: 4px;
   --padding-3xs: 10px;
+  --padding-5xl: 24px;
+  --padding-xs: 12px;
+  --padding-mini: 15px;
 
   /* border radiuses */
-  --br-9xs: 4px;
   --br-5xs: 8px;
+  --br-9xs: 4px;
   --br-5xl: 24px;
+  --br-1605xl: 1624px;
   --br-base: 16px;
+  --br-xs: 12px;
+  --br-xl: 20px;
+
+  /* Effects */
+  --card3: 0px 5px 35px rgba(0, 0, 0, 0.05);
+  --lblur: blur(10px);
 }

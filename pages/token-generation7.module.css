@@ -1,0 +1,355 @@
+.frameChild {
+  position: relative;
+  border-radius: var(--br-base);
+  width: 64px;
+  height: 64px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.frameInner,
+.frameItem {
+  position: relative;
+  width: 145px;
+  height: 5px;
+}
+.frameInner {
+  border-radius: var(--br-5xs);
+  width: 64px;
+  height: 64px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.frameParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.contractType,
+.erc721Erc721aEtc {
+  position: relative;
+  letter-spacing: 0.05em;
+  line-height: 160%;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+.erc721Erc721aEtc {
+  align-self: stretch;
+  font-size: var(--p1sb-size);
+  font-weight: 500;
+  color: var(--contrast-white-60);
+}
+.contractTypeParent,
+.frameWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.frameWrapper {
+  border-radius: var(--br-5xs);
+  background-color: var(--black-100);
+  width: 200px;
+  padding: var(--padding-13xl) var(--padding-base);
+  box-sizing: border-box;
+}
+.blockchainToDeploy {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--p1sb-size);
+  letter-spacing: 0.05em;
+  line-height: 160%;
+  text-transform: capitalize;
+  font-weight: 500;
+  color: var(--contrast-white-60);
+  text-align: center;
+}
+.blockchainParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.frameGroup,
+.mintNftProcessed {
+  background-color: var(--black-100);
+  display: flex;
+  justify-content: flex-start;
+}
+.frameGroup {
+  flex-direction: row;
+  align-items: flex-start;
+  gap: var(--gap-base);
+}
+.mintNftProcessed {
+  position: absolute;
+  top: 211px;
+  left: calc(50% - 720px);
+  flex-direction: column;
+  padding: var(--padding-base) var(--padding-61xl);
+  align-items: center;
+  color: var(--contrast-white-90);
+}
+.noCode,
+.pickBlockchain {
+  position: absolute;
+  top: 481px;
+  left: 80px;
+  font-size: var(--h4sb-size);
+  letter-spacing: 0.05em;
+  line-height: 140%;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+.noCode {
+  top: 112px;
+  font-size: var(--h1sb-size);
+}
+.groupChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--black-94);
+  width: 53px;
+  height: 53px;
+}
+.codex11Icon {
+  position: absolute;
+  top: 10.15px;
+  left: 10.15px;
+  width: 33.27px;
+  height: 33.27px;
+  object-fit: cover;
+}
+.rectangleParent {
+  position: absolute;
+  top: -2px;
+  left: -3px;
+  width: 53px;
+  height: 53px;
+}
+.groupWrapper {
+  position: relative;
+  border-radius: var(--br-5xl);
+  background-color: var(--contrast-white-100);
+  width: 48px;
+  height: 48px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.frameParent3 {
+  align-self: stretch;
+  border-radius: var(--br-5xs);
+  background-color: var(--primary-sky-blue);
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-base) var(--padding-13xl);
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.image400Icon {
+  position: absolute;
+  top: calc(50% - 24px);
+  left: calc(50% - 24px);
+  width: 48px;
+  height: 48px;
+  object-fit: cover;
+}
+.frameParent4 {
+  align-self: stretch;
+  border-radius: var(--br-5xs);
+  background-color: var(--black-94);
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-base) var(--padding-13xl);
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.image400Container {
+  position: relative;
+  border-radius: var(--br-1605xl);
+  background-color: var(--contrast-white-100);
+  width: 48px;
+  height: 48px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.frameParent1,
+.frameParent2 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameParent2 {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-5xs);
+}
+.frameParent1 {
+  position: absolute;
+  top: 558px;
+  left: 0;
+  width: 1440px;
+  flex-direction: row;
+  padding: 0 var(--padding-61xl);
+  box-sizing: border-box;
+  gap: var(--gap-61xl);
+}
+.image12Icon {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.codex,
+.logoNew {
+  position: relative;
+}
+.logoNew {
+  width: 181.26px;
+  height: 96px;
+}
+.codex {
+  letter-spacing: 0.05em;
+  line-height: 160%;
+  text-transform: capitalize;
+}
+.logoNewParent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.frameParent25,
+.frameWrapper4,
+.privacyParent {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.privacyParent {
+  align-items: flex-start;
+  gap: var(--gap-13xl);
+}
+.frameParent25,
+.frameWrapper4 {
+  align-items: center;
+}
+.frameWrapper4 {
+  font-size: var(--p1sb-size);
+  font-family: var(--p1sb);
+}
+.frameParent25 {
+  gap: var(--gap-77xl);
+}
+.mditwitterIcon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.findUsParent,
+.mditwitterParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  gap: var(--gap-29xl);
+}
+.findUsParent {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+  font-size: var(--p1sb-size);
+  font-family: var(--p1sb);
+}
+.frameParent24 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.footerexplorer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: var(--contrast-black-99);
+  width: 1440px;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-base) var(--padding-61xl);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: var(--pinterreg12-size);
+  font-family: var(--pinterreg12);
+}
+.isolationModeIcon {
+  position: relative;
+  width: 144.7px;
+  height: 48px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.btnSmall,
+.isolationModeWrapper {
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-base);
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.btnSmall {
+  border-radius: var(--br-9xs);
+  background: linear-gradient(261deg, #089df1, #082df1 51.04%, #08abf1);
+  flex-direction: row;
+  padding: var(--padding-5xs) var(--padding-base);
+  color: var(--contrast-white-100);
+}
+.frameParent26,
+.headerDiscussion {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.frameParent26 {
+  justify-content: flex-start;
+  gap: var(--gap-29xl);
+}
+.headerDiscussion {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 720px);
+  background-color: var(--contrast-black90);
+  width: 1440px;
+  padding: 0 var(--padding-61xl);
+  box-sizing: border-box;
+  justify-content: space-between;
+  font-size: var(--p1sb-size);
+  color: var(--contrast-white-60);
+}
+.tokenGeneration {
+  position: relative;
+  background-color: var(--black-100);
+  width: 100%;
+  height: 1718px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--h6sb-size);
+  color: var(--contrast-white-100);
+  font-family: var(--p1sb);
+}

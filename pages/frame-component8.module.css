@@ -1,0 +1,41 @@
+.allertGreen50 {
+  position: absolute;
+  top: 31px;
+  left: 62px;
+  background-color: var(--allert-green-50);
+  width: 42px;
+  height: 42px;
+}
+.allertBlue50,
+.allertPurple50,
+.allertRed50,
+.allertYellow50 {
+  position: absolute;
+  top: 95px;
+  left: 62px;
+  background-color: var(--allert-yellow-50);
+  width: 42px;
+  height: 42px;
+}
+.allertBlue50,
+.allertPurple50,
+.allertRed50 {
+  top: 159px;
+  background-color: var(--allert-blue-50);
+}
+.allertPurple50,
+.allertRed50 {
+  top: 223px;
+  background-color: var(--allert-red-50);
+}
+.allertPurple50 {
+  top: 287px;
+  background-color: var(--allert-purple-50);
+}
+.allertGreen50Parent {
+  position: relative;
+  background-color: var(--contrast-white-100);
+  width: 100%;
+  height: 356px;
+  overflow: hidden;
+}

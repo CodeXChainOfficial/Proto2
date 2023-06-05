@@ -1,0 +1,485 @@
+.buildOnCodex {
+  position: relative;
+  letter-spacing: 0.05em;
+  line-height: 160%;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+.btnSmall {
+  position: absolute;
+  top: 1215px;
+  left: 1278px;
+  border-radius: var(--br-9xs);
+  background: linear-gradient(261deg, #089df1, #082df1 51.04%, #08abf1);
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-5xs) var(--padding-base);
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameChild {
+  position: relative;
+  border-radius: var(--br-5xs);
+  width: 64px;
+  height: 64px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.frameItem {
+  position: relative;
+  width: 183px;
+  height: 3px;
+}
+.frameParent {
+  background-color: var(--black-100);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.selectBlockchain {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 0.05em;
+  line-height: 160%;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+.selectBlockchainWrapper {
+  width: 186px;
+}
+.frameContainer,
+.frameWrapper,
+.selectBlockchainWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.frameContainer {
+  border-radius: var(--br-5xs);
+  background-color: var(--black-100);
+  width: 200px;
+  padding: var(--padding-13xl) var(--padding-base);
+  box-sizing: border-box;
+}
+.frameWrapper {
+  text-align: left;
+}
+.describeYourDaoWrapper {
+  align-self: stretch;
+}
+.describeYourDaoWrapper,
+.frameDiv,
+.frameGroup {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.frameGroup {
+  flex-direction: row;
+  align-items: flex-start;
+  gap: var(--gap-61xl);
+}
+.dao,
+.procesDao {
+  position: absolute;
+}
+.procesDao {
+  top: 200px;
+  left: calc(50% - 720px);
+  background-color: var(--black-100);
+  width: 1440px;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-13xl) var(--padding-61xl) 0;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: center;
+  font-size: var(--h6sb-size);
+  color: var(--contrast-white-90);
+}
+.dao {
+  top: 112px;
+  left: 80px;
+  font-size: var(--h2sb-size);
+  letter-spacing: 0.05em;
+  line-height: 140%;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+.mainnetWrapper {
+  border-radius: var(--br-5xs);
+  padding: var(--padding-3xs);
+  align-items: flex-start;
+}
+.frameWrapper7,
+.mainnetWrapper,
+.tesnetWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.tesnetWrapper {
+  border-radius: var(--br-5xs);
+  background-color: var(--primary-sky-blue);
+  padding: var(--padding-3xs);
+  align-items: flex-start;
+  color: var(--contrast-white-100);
+}
+.frameWrapper7 {
+  flex: 1;
+  padding: var(--padding-5xs) 0;
+  align-items: center;
+}
+.frameWrapper6,
+.groupDiv {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1440px;
+}
+.frameWrapper6 {
+  background-color: var(--black-100);
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-5xs) var(--padding-61xl);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-start;
+}
+.groupDiv {
+  height: 78px;
+}
+.groupWrapper {
+  position: relative;
+  width: 1440px;
+  height: 78px;
+}
+.tokenGenerationInner {
+  position: absolute;
+  top: 633px;
+  left: 0;
+  background-color: var(--black-100);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  color: var(--contrast-white-60);
+}
+.selectBlockchain1 {
+  position: relative;
+  letter-spacing: 0.05em;
+  line-height: 140%;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+.bestBlockchainFor {
+  color: var(--primary-sky-blue);
+}
+.theChainYouContainer {
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.05em;
+  line-height: 160%;
+  font-weight: 500;
+}
+.selectBlockchainParent,
+.theChainYouChooseIsWhereWrapper {
+  display: flex;
+  padding: var(--padding-5xs) var(--padding-base);
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.theChainYouChooseIsWhereWrapper {
+  width: 1256px;
+  flex-direction: row;
+  box-sizing: border-box;
+  font-size: var(--p1sb-size);
+  color: var(--contrast-white-90);
+}
+.selectBlockchainParent {
+  position: absolute;
+  top: 456px;
+  left: 80px;
+  border-radius: var(--br-5xs);
+  flex-direction: column;
+  gap: var(--gap-base);
+  font-size: var(--h4sb-size);
+}
+.groupChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--black-94);
+  width: 53px;
+  height: 53px;
+}
+.codex11Icon {
+  position: absolute;
+  top: 10.15px;
+  left: 10.15px;
+  width: 33.27px;
+  height: 33.27px;
+  object-fit: cover;
+}
+.rectangleParent {
+  position: absolute;
+  top: -2px;
+  left: -3px;
+  width: 53px;
+  height: 53px;
+}
+.groupContainer {
+  position: relative;
+  border-radius: var(--br-5xl);
+  background-color: var(--contrast-white-100);
+  width: 48px;
+  height: 48px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.frameParent5 {
+  align-self: stretch;
+  border-radius: var(--br-5xs);
+  background-color: var(--primary-sky-blue);
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-base) var(--padding-13xl);
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.image400Icon {
+  position: absolute;
+  top: calc(50% - 24px);
+  left: calc(50% - 24px);
+  width: 48px;
+  height: 48px;
+  object-fit: cover;
+}
+.frameParent6 {
+  align-self: stretch;
+  border-radius: var(--br-5xs);
+  background-color: var(--black-94);
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-base) var(--padding-13xl);
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.image400Container {
+  position: relative;
+  border-radius: var(--br-1605xl);
+  background-color: var(--contrast-white-100);
+  width: 48px;
+  height: 48px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.frameParent4 {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+.frameParent10,
+.frameParent4 {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-5xs);
+}
+.frameParent10,
+.frameParent2,
+.frameParent3 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameParent3 {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-61xl);
+}
+.frameParent2 {
+  position: absolute;
+  top: 743px;
+  left: 0;
+  border-radius: var(--br-5xs);
+  background-color: var(--black-100);
+  box-shadow: var(--card3);
+  width: 1440px;
+  flex-direction: column;
+  padding: 0 var(--padding-61xl);
+  box-sizing: border-box;
+  gap: var(--gap-13xl);
+  font-size: var(--h6sb-size);
+}
+.image12Icon {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.codex,
+.logoNew {
+  position: relative;
+}
+.logoNew {
+  width: 181.26px;
+  height: 96px;
+}
+.codex {
+  letter-spacing: 0.05em;
+  line-height: 160%;
+  text-transform: capitalize;
+}
+.logoNewParent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.frameParent16,
+.frameWrapper8,
+.privacyParent {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.privacyParent {
+  align-items: flex-start;
+  gap: var(--gap-13xl);
+}
+.frameParent16,
+.frameWrapper8 {
+  align-items: center;
+}
+.frameWrapper8 {
+  font-size: var(--p1sb-size);
+  font-family: var(--p1sb);
+}
+.frameParent16 {
+  gap: var(--gap-77xl);
+}
+.mditwitterIcon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.findUsParent,
+.mditwitterParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  gap: var(--gap-29xl);
+}
+.findUsParent {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+  font-size: var(--p1sb-size);
+  font-family: var(--p1sb);
+}
+.frameParent15 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.footerexplorer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: var(--contrast-black-99);
+  width: 1440px;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-base) var(--padding-61xl);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: var(--pinterreg12-size);
+  font-family: var(--pinterreg12);
+}
+.isolationModeIcon {
+  position: relative;
+  width: 144.7px;
+  height: 48px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.isolationModeWrapper {
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-base);
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.btnSmall1,
+.project {
+  color: var(--contrast-white-100);
+}
+.project {
+  position: relative;
+  letter-spacing: 0.05em;
+  line-height: 160%;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+.btnSmall1 {
+  border-radius: var(--br-9xs);
+  background: linear-gradient(261deg, #089df1, #082df1 51.04%, #08abf1);
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-5xs) var(--padding-base);
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameParent17,
+.headerDiscussion {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.frameParent17 {
+  justify-content: flex-start;
+  gap: var(--gap-29xl);
+}
+.headerDiscussion {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 720px);
+  background-color: var(--contrast-black90);
+  width: 1440px;
+  padding: 0 var(--padding-61xl);
+  box-sizing: border-box;
+  justify-content: space-between;
+  color: var(--contrast-white-60);
+}
+.tokenGeneration {
+  position: relative;
+  background-color: var(--black-100);
+  width: 100%;
+  height: 1616px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--p1sb-size);
+  color: var(--contrast-white-100);
+  font-family: var(--p1sb);
+}

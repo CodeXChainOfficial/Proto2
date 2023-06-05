@@ -1,10 +1,8 @@
 .frameChild {
   position: relative;
   border-radius: var(--br-5xs);
-  width: 64px;
-  height: 64px;
-  overflow: hidden;
-  flex-shrink: 0;
+  width: 72px;
+  height: 72px;
 }
 .frameItem {
   position: relative;
@@ -12,6 +10,7 @@
   height: 5px;
 }
 .frameParent {
+  box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.01);
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -34,6 +33,7 @@
 }
 .contractTypeParent,
 .frameWrapper {
+  box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.01);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -59,6 +59,7 @@
 }
 .blockchainParent {
   align-self: stretch;
+  box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.01);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -71,6 +72,7 @@
   justify-content: flex-start;
 }
 .frameGroup {
+  box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.01);
   flex-direction: row;
   align-items: flex-start;
   gap: var(--gap-base);
@@ -279,158 +281,13 @@
   padding: var(--padding-5xs) var(--padding-base);
   font-size: var(--p1sb-size);
 }
-.image12Icon {
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  max-width: 100%;
-  overflow: hidden;
-  max-height: 100%;
-  object-fit: cover;
-}
-.codex,
-.logoNew {
-  position: relative;
-}
-.logoNew {
-  width: 181.26px;
-  height: 96px;
-}
-.codex {
-  letter-spacing: 0.05em;
-  line-height: 160%;
-  text-transform: capitalize;
-}
-.logoNewParent {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
-  gap: var(--gap-5xs);
-}
-.frameParent8,
-.frameWrapper12,
-.privacyParent {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-}
-.privacyParent {
-  align-items: flex-start;
-  gap: var(--gap-13xl);
-}
-.frameParent8,
-.frameWrapper12 {
-  align-items: center;
-}
-.frameWrapper12 {
-  font-size: var(--p1sb-size);
-  font-family: var(--p1sb);
-}
-.frameParent8 {
-  gap: var(--gap-77xl);
-}
-.mditwitterIcon {
-  position: relative;
-  width: 24px;
-  height: 24px;
-  overflow: hidden;
-  flex-shrink: 0;
-}
-.findUsParent,
-.mditwitterParent {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-end;
-  gap: var(--gap-29xl);
-}
-.findUsParent {
-  flex-direction: column;
-  justify-content: flex-start;
-  gap: var(--gap-base);
-  font-size: var(--p1sb-size);
-  font-family: var(--p1sb);
-}
-.footerexplorer,
-.frameParent7 {
-  display: flex;
-  align-items: center;
-}
-.frameParent7 {
-  align-self: stretch;
-  flex-direction: row;
-  justify-content: space-between;
-}
-.footerexplorer {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  background-color: var(--contrast-black-99);
-  width: 1440px;
-  flex-direction: column;
-  padding: var(--padding-base) var(--padding-61xl);
-  box-sizing: border-box;
-  justify-content: flex-start;
-  font-size: var(--pinterreg12-size);
-  font-family: var(--pinterreg12);
-}
-.isolationModeIcon {
-  position: relative;
-  width: 144.7px;
-  height: 48px;
-  overflow: hidden;
-  flex-shrink: 0;
-}
-.btnSmall1,
-.isolationModeWrapper {
-  display: flex;
-  flex-direction: column;
-  padding: var(--padding-base);
-  align-items: flex-start;
-  justify-content: flex-start;
-}
-.btnSmall1 {
-  border-radius: var(--br-9xs);
-  background: linear-gradient(261deg, #089df1, #082df1 51.04%, #08abf1);
-  flex-direction: row;
-  padding: var(--padding-5xs) var(--padding-base);
-  color: var(--wireframe2);
-}
-.frameParent9,
-.headerDiscussion {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-.frameParent9 {
-  justify-content: flex-start;
-  gap: var(--gap-29xl);
-}
-.headerDiscussion {
-  position: absolute;
-  top: 0;
-  left: calc(50% - 720px);
-  background-color: var(--contrast-black90);
-  width: 1440px;
-  padding: 0 var(--padding-61xl);
-  box-sizing: border-box;
-  justify-content: space-between;
-  font-size: var(--p1sb-size);
-  color: var(--contrast-white-60);
-}
-.tokenGeneration {
+.nftFirstPage {
   position: relative;
   background-color: var(--black-100);
   width: 100%;
   height: 1988px;
-  overflow: hidden;
   text-align: left;
   font-size: var(--h6sb-size);
-  color: var(--wireframe2);
+  color: var(--contrast-white-100);
   font-family: var(--p1sb);
 }
